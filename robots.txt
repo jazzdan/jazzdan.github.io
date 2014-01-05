@@ -1,4 +1,4 @@
 User-agent: *
 Disallow: 
 
-Sitemap: http://jazzdan.github.io/sitemap.xml 
+Sitemap: http://dmiller.io/sitemap.xml 
