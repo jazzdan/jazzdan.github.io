@@ -4,7 +4,7 @@
   <title><![CDATA[dmiller.io]]></title>
   <link href="http://dmiller.io/atom.xml" rel="self"/>
   <link href="http://dmiller.io/"/>
-  <updated>2014-01-04T21:36:48-05:00</updated>
+  <updated>2014-01-04T22:15:08-05:00</updated>
   <id>http://dmiller.io/</id>
   <author>
     <name><![CDATA[Dan Miller]]></name>
@@ -24,8 +24,7 @@ on HHVM.</p>
 
 <h2>What is HHVM?</h2>
 
-<p>First a history, lifted from <a href="http://wikipedia.org">The Great Book of the
-Internet</a>:</p>
+<p>First a history, lifted from <a href="http://wikipedia.org">The Great Book of the Internet</a>:</p>
 
 <p>In the beginning PHP was not a programming language, but a set of CGI
 Perl scripts used to maintain Rasmus&#8217; personal homepage. One thing lead
@@ -81,11 +80,7 @@ located here:</p>
 <p>A clunky directory hierarchy, but whatever. Feel free to symlink it in
 to /usr/local/bin if you want to make it easier to acccess.</p>
 
-<p>Now comes the Laravel specific sauce. Taylor Otwell posted <a href="https://twitter.com/taylorotwell/status/418057634378301440">the config
-that he has used on
-Twitter</a> so
-I used that. Unfortunately, laravel pastebin is down at time of writing
-so I have mirrored it as a gist:</p>
+<p>Now comes the Laravel specific sauce. Taylor Otwell posted <a href="https://twitter.com/taylorotwell/status/418057634378301440">the config that he has used on Twitter</a> so I used that. Unfortunately, laravel pastebin is down at time of writing so I have mirrored it as a gist:</p>
 
 <p>wget that down into your home directory:</p>
 
