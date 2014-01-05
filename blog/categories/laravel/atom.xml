@@ -4,7 +4,7 @@
   <title><![CDATA[Category: laravel | dmiller.io]]></title>
   <link href="http://dmiller.io/blog/categories/laravel/atom.xml" rel="self"/>
   <link href="http://dmiller.io/"/>
-  <updated>2014-01-04T22:37:53-05:00</updated>
+  <updated>2014-01-05T11:04:49-05:00</updated>
   <id>http://dmiller.io/</id>
   <author>
     <name><![CDATA[Dan Miller]]></name>
@@ -83,6 +83,7 @@ to /usr/local/bin if you want to make it easier to acccess.</p>
 <p>Now comes the Laravel specific sauce. Taylor Otwell posted <a href="https://twitter.com/taylorotwell/status/418057634378301440">the config that he has used on Twitter</a> so I used that. Unfortunately, laravel pastebin is down at time of writing so I have mirrored it as a gist:</p>
 
 <p>wget that down into your home directory:
+(apologies for the terrible formatting, not sure what is wrong here)
 <div><script src='https://gist.github.com/8262454.js'></script>
 <noscript><pre><code>Server {
   Port = 80
