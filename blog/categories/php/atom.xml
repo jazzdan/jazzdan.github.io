@@ -4,7 +4,7 @@
   <title><![CDATA[Category: php | dmiller.io]]></title>
   <link href="http://dmiller.io/blog/categories/php/atom.xml" rel="self"/>
   <link href="http://dmiller.io/"/>
-  <updated>2014-01-04T22:15:08-05:00</updated>
+  <updated>2014-01-04T22:37:53-05:00</updated>
   <id>http://dmiller.io/</id>
   <author>
     <name><![CDATA[Dan Miller]]></name>
@@ -129,7 +129,7 @@ StaticFile {
 
 <p>Install composer if you haven&rsquo;t already:</p>
 
-<pre><code>~$ configurl -sS https://getcomposer.org/installer | php
+<pre><code>~$ curl -sS https://getcomposer.org/installer | php
 ~$ sudo mv composer.phpar /usr/local/bin/composer
 ~$ sudo apt-get install php5-mcrypt
 </code></pre>
@@ -139,15 +139,15 @@ StaticFile {
 <pre><code>php -m | grep mcrypt
 </code></pre>
 
-<p>Install laravelavel:</p>
+<p>Install laravel:</p>
 
-<pre><code>~$ composer create-project laravel/laravel hhvm-test --prefer-directoryist
+<pre><code>~$ composer create-project laravel/laravel hhvm-test --prefer-dist
+~$ cd hhvm-test
+~$ composer install
 </code></pre>
 
 <p>Once that has completed you should be able to run Laravel on HHVM with
 this command:</p>
-
-<p>```</p>
 
 <pre><code>~$ cd ~/dev/hhvm/hphp/hhvm
 :$ sudo ./hhvm -m server -c  ~/config.hdf
@@ -163,8 +163,8 @@ page server started
 all servers started
 </code></pre>
 
-<p>If you see output that looks like that, then you should be good theno
-go! Check out the default Laravel app at <a href="http://localhost">http://localhost</a></p>
+<p>If you see output that looks like that, then you should be good good to
+go!</p>
 
 <p>Many eyes make for shallow bugs, or so I&rsquo;m told. Please try this out on
 your more developed Laravel projects and report relevant bugs to the
