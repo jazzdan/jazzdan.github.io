@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[dmiller.io]]></title>
-  <link href="http://dmiller.io/atom.xml" rel="self"/>
+  <title><![CDATA[Category: php | dmiller.io]]></title>
+  <link href="http://dmiller.io/blog/categories/php/atom.xml" rel="self"/>
   <link href="http://dmiller.io/"/>
   <updated>2014-01-04T21:36:48-05:00</updated>
   <id>http://dmiller.io/</id>
@@ -28,7 +28,7 @@ on HHVM.</p>
 Internet</a>:</p>
 
 <p>In the beginning PHP was not a programming language, but a set of CGI
-Perl scripts used to maintain Rasmus&#8217; personal homepage. One thing lead
+Perl scripts used to maintain Rasmus' personal homepage. One thing lead
 to another and eventually the core PHP interpreter was rewritten and
 called the Zend Engine. If, like me, you&rsquo;ve always wondered what &ldquo;Zend&rdquo;
 means, now you know.</p>
@@ -87,8 +87,7 @@ Twitter</a> so
 I used that. Unfortunately, laravel pastebin is down at time of writing
 so I have mirrored it as a gist:</p>
 
-<p>wget that down into your home directory:</p>
-
+<p>wget that down into your home directory:
 <div><script src='https://gist.github.com/8262454.js'></script>
 <noscript><pre><code>Server {
   Port = 80
@@ -102,7 +101,7 @@ VirtualHost {
       * {
         pattern = .?
 
-    # app bootstrap
+	# app bootstrap
         to = index.php
 
         # append the original query string
@@ -126,7 +125,7 @@ StaticFile {
     txt = text/plain
   }
 }</code></pre></noscript></div>
-
+</p>
 
 <pre><code>~$ wget https://gist.github.com/jazzdan/8262454/raw/5d190c4de5252399cb421f344a789aeb56bb4ebd/config.hdf
 </code></pre>
@@ -153,7 +152,7 @@ StaticFile {
 <p>Once that has completed you should be able to run Laravel on HHVM with
 this command:</p>
 
-<p>&#8220;`</p>
+<p>```</p>
 
 <pre><code>~$ cd ~/dev/hhvm/hphp/hhvm
 :$ sudo ./hhvm -m server -c  ~/config.hdf
