@@ -4,7 +4,7 @@
   <title><![CDATA[Category: php | dmiller.io]]></title>
   <link href="http://dmiller.io/blog/categories/php/atom.xml" rel="self"/>
   <link href="http://dmiller.io/"/>
-  <updated>2014-01-05T11:12:06-05:00</updated>
+  <updated>2014-01-05T11:29:56-05:00</updated>
   <id>http://dmiller.io/</id>
   <author>
     <name><![CDATA[Dan Miller]]></name>
@@ -143,7 +143,7 @@ StaticFile {
 <p>Install laravel:</p>
 
 <pre><code>~$ composer create-project laravel/laravel hhvm-test --prefer-dist
-~$ cd hhvm-test
+:$ cd hhvm-test
 ~$ composer install
 </code></pre>
 
