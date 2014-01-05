@@ -4,7 +4,7 @@
   <title><![CDATA[dmiller.io]]></title>
   <link href="http://dmiller.io/atom.xml" rel="self"/>
   <link href="http://dmiller.io/"/>
-  <updated>2014-01-05T11:29:56-05:00</updated>
+  <updated>2014-01-05T12:53:59-05:00</updated>
   <id>http://dmiller.io/</id>
   <author>
     <name><![CDATA[Dan Miller]]></name>
@@ -29,7 +29,7 @@ on HHVM.</p>
 <p>In the beginning PHP was not a programming language, but a set of CGI
 Perl scripts used to maintain Rasmus&#8217; personal homepage. One thing lead
 to another and eventually the core PHP interpreter was rewritten and
-called the Zend Engine. If, like me, you&rsquo;ve always wondered what &ldquo;Zend&rdquo;
+called the <a href="http://en.wikipedia.org/wiki/Zend_Engine">Zend Engine</a>. If, like me, you&rsquo;ve always wondered what &ldquo;Zend&rdquo;
 means, now you know.</p>
 
 <p>A bunch of websites are now written in PHP. One you might have heard of
@@ -39,10 +39,12 @@ and make it as fast as possible?</p>
 
 <p>The programmer in you should be jumping up and down saying &ldquo;I know! I
 know! Compile it to C(++)!&rdquo; That is exactly what Facebook did with a
-project they called HipHop for PHP, or HPHP for short. Using the HPHP
+project they called <a href="http://en.wikipedia.org/wiki/HipHop_for_PHP">HipHop for
+PHP</a>, or HPHP for short. Using the HPHP
 compiler Facebook could compile all their PHP code in to a binary, ship
 it off to their servers, and massively increase their performance. In
-fact, Facebook realized up to 6x the speed of Zend PHP. Awesome!</p>
+fact, Facebook realized up to <a href="http://dl.acm.org/citation.cfm?id=2384616.2384658&amp;coll=DL&amp;dl=ACM">6x the speed of Zend
+PHP</a>. Awesome!</p>
 
 <p>Unfortunately the &ldquo;ship it off to their servers&rdquo; part wasn&rsquo;t too
 awesome. The compiled binary exceeded 1GB. Even worse, maintaining the
@@ -53,7 +55,7 @@ language, could not support some of the features of PHP such as eval()
 and create_function().</p>
 
 <p>To get around this Facebook deprecated HPHPc and created a PHP virtual
-machine. HHVM converts PHP code into machine readable bytecode,
+machine called <a href="http://en.wikipedia.org/wiki/HipHop_for_PHP#HipHop_Virtual_Machine_.28HHVM.29">HHVM</a>. HHVM converts PHP code into machine readable bytecode,
 similarly to the JVM. This bytecode is then translated into x64 machine
 code at runtime using a just-in-time (JIT) compiler. Now Facebook
 doesn&rsquo;t have a lengthy build step, and can ship only changed files to
