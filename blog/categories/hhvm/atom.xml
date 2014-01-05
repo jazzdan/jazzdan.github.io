@@ -4,7 +4,7 @@
   <title><![CDATA[Category: hhvm | dmiller.io]]></title>
   <link href="http://dmiller.io/blog/categories/hhvm/atom.xml" rel="self"/>
   <link href="http://dmiller.io/"/>
-  <updated>2014-01-05T11:04:49-05:00</updated>
+  <updated>2014-01-05T11:12:06-05:00</updated>
   <id>http://dmiller.io/</id>
   <author>
     <name><![CDATA[Dan Miller]]></name>
@@ -166,6 +166,11 @@ all servers started
 
 <p>If you see output that looks like that, then you should be good good to
 go!</p>
+
+<p>I have stepped through all of the <a href="http://laravel.com/docs/quick">Laravel
+Quickstart</a> on HHVM and everything
+appears to work, including MySQL database access. I&rsquo;ll report back as I
+progress in to actually developing a Laravel app on it.</p>
 
 <p>Many eyes make for shallow bugs, or so I&rsquo;m told. Please try this out on
 your more developed Laravel projects and report relevant bugs to the
